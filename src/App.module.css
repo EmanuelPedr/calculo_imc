@@ -71,6 +71,6 @@ transition: all ease .5s;
   .container .rightSide .grid{
     flex:1;
     display:grid;
-    grid-template-columns:repeat(2,ifr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
