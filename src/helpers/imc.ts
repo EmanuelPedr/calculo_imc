@@ -17,12 +17,13 @@ export const levels:Level[] = [
 
 ];
 
-export const calculateimc = (altura:number,peso:number) => {
+export const calculateImc = (altura:number,peso:number) => {
     const imc= peso / (altura*altura);
     for (let i in levels) {
         if (imc >= levels[i].imc[0]&& imc <= levels[i].imc[1]){
-        levels[i].yourImc = imc;
-        return levels[i]
+        let levelCopy ={...levels[i]};
+        levelCopy.yourImc = imc;
+        return levelCopy
         }
     }
     return null;

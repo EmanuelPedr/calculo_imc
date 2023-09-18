@@ -17,3 +17,21 @@ display: flex;
 justify-content:center ;
 align-items: center;
 }
+
+.gridTitle{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+
+
+}
+.gridInfo{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.yourImc{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+}
